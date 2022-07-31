@@ -1,0 +1,43 @@
+一些命名
+
+
+CNF（Chomsky Normal Form）
+
+仅有两种形式：
+  A->B C 
+  A->w
+若是CFG 一定存在等价CNF
+
+CYK
+
+表格 动态规划
+
+EM
+
+
+CRF
+
+Pack_padded_sequence
+
+pad_sequence：句子填充
+
+squence（被填充句子）
+batch_first（batch为第一维度）
+padding_value（填充数值）
+win不行？
+尝试linux + batch_first影响在前填充or在后填充 + 默认值
+
+
+pack_padded_sequence
+
+
+is_contiguous()：
+布局与实际相符为true
+若使用transpose()等方法后，布局与实际不一致则为false
+
+contiguous()：
+创造全新独立的布局，解耦
+
+tensor：张量
+
+raise：手动抛出异常
